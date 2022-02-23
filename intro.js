@@ -43,16 +43,32 @@ if(true){
 }
 console.log(g)
 
-if(true){
-    let p = 99;
-}
-console.log(p)
+// if(true){
+//     let p = 99;
+// }
+// console.log(p)
 
 
 // const vs let
 const pi = 3.14, e = 2.71
-let x2 = 4
+x2 = 4
 const y2 = -2
 x2 = y2 * 3
 
+// Kuvvet alma
+console.log(3 ** 3)
+
+
+// Comparison with ==  (Don't do that). Burada değişkenlerin tipi kontrol edilmez, sadece tuttuğu değerler kontrol edilir
+console.log(0 == false)
+console.log(1 == true)
+console.log("abc" == true)
+console.log("" == true)
+console.log("" == false)
+
+// Comparison with === (Do that). Burada değişkenlerin hem tipi hem de tuttuğu değerler kontrol edilir
+console.log(0 === false)
+console.log(0 === 1)
+
 // git branch test
+
