@@ -1,0 +1,2 @@
+HW1: n katmanlı obje cloning
+HW2: https://projecteuler.net/archives -> Problem 2'den 15'e kadar, 15 dahil.
