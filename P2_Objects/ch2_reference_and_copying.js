@@ -108,3 +108,25 @@ console.log(o1.name)
     o1.name = "Fatih"; // yapılabilir
     console.log(o1)
 }
+
+
+{ // garbage collection
+    let person = {name: "Joe"};
+    person = null; // bu satırdan sonra yukarıdaki obje erişilemez olur. Garbage collector tarafından toplanır
+
+
+    let p1 = {name: "Joe"};
+    let p2 = p1; // reference copy
+    p1 = null; // {name: "Joe"} objesi erişelemez değildir. p2 ile erişilebilir. O yüzden garbage collector tarafından toplanmaz
+
+
+    let s = "abc";
+    let s2 = s; // reference copy but no harm because strings are immutable
+
+    // arrayin içerisindeki objeler erişilemez değildir.
+    
+
+
+
+
+}
